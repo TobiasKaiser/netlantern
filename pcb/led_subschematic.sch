@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:netlantern-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 8268 11693 portrait
