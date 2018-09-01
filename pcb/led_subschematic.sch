@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:netlantern-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
