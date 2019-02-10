@@ -561,28 +561,6 @@ Text Label 4550 4650 0    50   ~ 0
 RTS
 Wire Wire Line
 	4050 4650 4550 4650
-$Comp
-L Transistor_BJT:S8050 Q1
-U 1 1 5C62FB64
-P 1850 6500
-F 0 "Q1" H 2041 6546 50  0000 L CNN
-F 1 "S8050" H 2041 6455 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2050 6425 50  0001 L CIN
-F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 1850 6500 50  0001 L CNN
-	1    1850 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:S8050 Q2
-U 1 1 5C62FD03
-P 1850 7150
-F 0 "Q2" H 2041 7104 50  0000 L CNN
-F 1 "S8050" H 2041 7195 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2050 7075 50  0001 L CIN
-F 3 "http://www.unisonic.com.tw/datasheet/S8050.pdf" H 1850 7150 50  0001 L CNN
-	1    1850 7150
-	1    0    0    1   
-$EndComp
 Text Label 950  7150 2    50   ~ 0
 RTS
 Text Label 4550 4850 0    50   ~ 0
@@ -1185,4 +1163,26 @@ Wire Notes Line
 	6850 7600 5100 7600
 Text Notes 5200 3400 0    118  ~ 0
 Level shift
+$Comp
+L Device:Q_NPN_BEC Q1
+U 1 1 5C898189
+P 1850 6500
+F 0 "Q1" H 2041 6546 50  0000 L CNN
+F 1 "S8050 SOT-23" H 2041 6455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2050 6600 50  0001 C CNN
+F 3 "~" H 1850 6500 50  0001 C CNN
+	1    1850 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BEC Q2
+U 1 1 5C8A0E4E
+P 1850 7150
+F 0 "Q2" H 2041 7104 50  0000 L CNN
+F 1 "S8050 SOT-23" H 2041 7195 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2050 7250 50  0001 C CNN
+F 3 "~" H 1850 7150 50  0001 C CNN
+	1    1850 7150
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
