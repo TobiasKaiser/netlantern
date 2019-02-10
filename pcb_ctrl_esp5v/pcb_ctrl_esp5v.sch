@@ -1,0 +1,93 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP32-footprints-Shem-Lib:ESP32-WROOM U1
+U 1 1 5C617910
+P 2200 2300
+F 0 "U1" H 2175 3687 60  0000 C CNN
+F 1 "ESP32-WROOM" H 2175 3581 60  0000 C CNN
+F 2 "ESP32-footprints-Lib:ESP32-WROOM" H 2550 3650 60  0001 C CNN
+F 3 "" H 1750 2750 60  0001 C CNN
+	1    2200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM1117-ADJ U2
+U 1 1 5C617AB9
+P 2450 5050
+F 0 "U2" H 2450 5292 50  0000 C CNN
+F 1 "LM1117-ADJ" H 2450 5201 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2450 5050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 2450 5050 50  0001 C CNN
+	1    2450 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Micro J1
+U 1 1 5C617CCD
+P 4550 5750
+F 0 "J1" H 4605 6217 50  0000 C CNN
+F 1 "USB_B_Micro" H 4605 6126 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_Molex-105017-0001" H 4700 5700 50  0001 C CNN
+F 3 "~" H 4700 5700 50  0001 C CNN
+	1    4550 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW1
+U 1 1 5C617D65
+P 6900 5300
+F 0 "SW1" H 6900 5535 50  0000 C CNN
+F 1 "SW_SPST" H 6900 5444 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 6900 5300 50  0001 C CNN
+F 3 "" H 6900 5300 50  0001 C CNN
+	1    6900 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW2
+U 1 1 5C617D91
+P 6900 5800
+F 0 "SW2" H 6900 6035 50  0000 C CNN
+F 1 "SW_SPST" H 6900 5944 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 6900 5800 50  0001 C CNN
+F 3 "" H 6900 5800 50  0001 C CNN
+	1    6900 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_USB:FT232RL U3
+U 1 1 5C6181EF
+P 4300 3100
+F 0 "U3" H 4300 4278 50  0000 C CNN
+F 1 "FT232RL" H 4300 4187 50  0000 C CNN
+F 2 "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm" H 4300 3100 50  0001 C CNN
+F 3 "http://www.ftdichip.com/Products/ICs/FT232RL.htm" H 4300 3100 50  0001 C CNN
+	1    4300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack J2
+U 1 1 5C618347
+P 6200 2100
+F 0 "J2" H 6255 2425 50  0000 C CNN
+F 1 "Barrel_Jack" H 6255 2334 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal" H 6250 2060 50  0001 C CNN
+F 3 "~" H 6250 2060 50  0001 C CNN
+	1    6200 2100
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
